@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-side {
+    height: 100vh;
+    width: 30vw;
+    background-image: url(./images/bg-image.jpg);
+    background-size: cover;
+}
+.bg-autor {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bg-autor a,
+.bg-autor p {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    filter: contrast(0.8);
+}
