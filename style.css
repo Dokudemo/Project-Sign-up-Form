@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Odin;
+    src: url(./fonts/norse/Norsebold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +10,32 @@
 }
 
 .left-side {
+    position: relative;
     height: 100vh;
-    width: 30vw;
+    width: 35vw;
     background-image: url(./images/bg-image.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo-banner {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo-banner > img {
+    height: 150px;
+    width: auto;
+}
+.logo-banner p {
+    font-family: Odin, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 5rem;
 }
 .bg-autor {
     height: 100%;
